@@ -693,6 +693,7 @@ button {
     width: 264px;
     height: 40px;
     color: #ffffff;
+    gap: 24px;
 }
 .subscribe-input::placeholder{
     color: #ffffff;
@@ -703,7 +704,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Roboto;
+    font-family: Roboto,sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -874,6 +875,6 @@ textarea::placeholder{
 .subscribe-form{
     display: flex;
 }
-.subcribe-label input{
+.subcribe-label{
     gap: 24px;
 }
