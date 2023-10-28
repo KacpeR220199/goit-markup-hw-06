@@ -874,6 +874,6 @@ textarea::placeholder{
 .subscribe-form{
     display: flex;
 }
-.subcribe-label{
+.subcribe-label input{
     gap: 24px;
 }
