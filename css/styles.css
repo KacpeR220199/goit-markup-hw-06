@@ -682,6 +682,7 @@ button {
     margin-bottom: 16px;
 }
 .subscribe-input{
+    display: flex;
     background-color: transparent;
     font-size: 12px;
     line-height: 1.5;
@@ -721,7 +722,7 @@ button {
 .subscribe-footer{
     width: 453px;
     height: 80px;
-
+    gap: 24px;
 }
 .footer-media{
     margin-right: 80px;
@@ -874,7 +875,5 @@ textarea::placeholder{
 }
 .subscribe-form{
     display: flex;
-}
-.subcribe-label{
     gap: 24px;
 }
