@@ -419,6 +419,31 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe-footer">
+          <p class="acapit-subcribe">Subscribe</p>
+          <ul class="subscribe-list">
+            <li>
+              <form name="subscribe-mail">
+                <label for="subscribes"> </label>
+                <input
+                  id="subscribes"
+                  type="email"
+                  name="email"
+                  class="subscribe-input"
+                  placeholder="E-mail"
+                />
+              </form>
+            </li>
+            <li>
+              <button type="submit" class="subcribe-button">
+                Subscribe
+                <svg width="24" height="24" class="subcribe-svg">
+                  <use href="./images/icons.svg#icon-Frame-3"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -428,6 +453,78 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="acapit-modal">
+          Leave your contacts and we will call you back
+        </p>
+        <div class="inputs">
+          <ul class="inputs-list">
+            <li>
+              <form style="margin-bottom: 8px" class="form">
+                <label for="inputes-1">Name</label>
+                <div class="svg-input">
+                  <svg class="icons-modal" width="18" height="18">
+                    <use
+                      href="./images/icons.svg#icon-person-black-18dp-1"
+                    ></use>
+                  </svg>
+                  <input id="inputes-1" type="text" name="name" />
+                </div>
+              </form>
+            </li>
+            <li>
+              <form style="margin-bottom: 8px">
+                <label for="inputes-2">Phone</label>
+                <div class="svg-input">
+                  <svg class="icons-modal" width="18" height="18">
+                    <use
+                      href="./images/icons.svg#icon-phone-black-18dp-1"
+                    ></use>
+                  </svg>
+                  <input id="inputes-2" type="tel" name="phone" />
+                </div>
+              </form>
+            </li>
+            <li>
+              <form style="margin-bottom: 8px">
+                <label for="inputes-3">Email</label>
+                <div class="svg-input">
+                  <svg class="icons-modal" width="18" height="18">
+                    <use
+                      href="./images/icons.svg#icon-email-black-18dp-1"
+                    ></use>
+                  </svg>
+                  <input id="inputes-3" type="email" name="email" />
+                </div>
+              </form>
+            </li>
+            <li>
+              <form style="margin-bottom: 8px">
+                <label for="inputes-4">Comment</label>
+                <div class="textarea">
+                  <textarea
+                    id="inputes-4"
+                    name="comments"
+                    placeholder="text input"
+                  ></textarea>
+                </div>
+              </form>
+            </li>
+          </ul>
+        </div>
+        <div class="check-box">
+          <input
+            type="checkbox"
+            id="privacy-policy"
+            name="privacy-policy"
+            value="I accept the terms and conditions of the Privacy Policy"
+          />
+          <label for="privacy-policy">
+            <a class="privacy-policy">Privacy Policy</a></label
+          >
+        </div>
+        <div class="button-send-modal">
+          <button type="submit" class="button-send">Send</button>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
