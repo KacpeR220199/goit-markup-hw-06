@@ -845,9 +845,6 @@ textarea::placeholder{
 .check-box{
     margin-bottom: 24px;
 }
-.check-input{
-    visibility: hidden;
-}
 .check-input:checked + .check-label span{
     background-color: var(--pressed-state-color);
     fill: #f4f4fd;
@@ -887,9 +884,6 @@ textarea::placeholder{
 }
 .link-privacy{
     color: var(--link-privacy-color);
-}
-.check-box input{
-    overflow: none;
 }
 .acapit-check-box{
     font-family: Roboto;
@@ -952,9 +946,10 @@ textarea::placeholder{
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4,0,0.2,1);
 }
-.input:focus{
+.input:focus + .icons-modal{
     border-color: #4d5ae5;
-}
-.input:focus svg{
     fill: #4d5ae5;
+}
+.privacy-policy-icons{
+    fill: #F4F4FD;
 }
